@@ -7,6 +7,8 @@ import Camara from '../screens/Camara'
 import VibracionScreen from '../screens/Vibracion';
 import SMS from '../screens/SMS';
 import Qr from '../screens/Qr';
+import VideoPlayer from '../screens/VideoPlayer';
+import Clipboardd from '../screens/Clipboardd'
 
 const Stack = createNativeStackNavigator();
 
@@ -21,6 +23,8 @@ const AppNavigator = () => {
                 <Stack.Screen name="Vibracion" component={VibracionScreen} />
                 <Stack.Screen name="SMS" component={SMS} />
                 <Stack.Screen name="Qr" component={Qr} />
+                <Stack.Screen name="VideoPlayer" component={VideoPlayer} />
+                <Stack.Screen name="Clipboardd" component={Clipboardd} />
             </Stack.Navigator>
         </NavigationContainer>
     );

@@ -21,6 +21,12 @@ export default function Home({ navigation }) {
                 <TouchableOpacity style={styles.boton} onPress={() => navigation.navigate("Qr")}>
                     <Text style={styles.texto}>QR</Text>
                 </TouchableOpacity>
+                <TouchableOpacity style={styles.boton} onPress={() => navigation.navigate("VideoPlayer")}>
+                    <Text style={styles.texto}>Video Player</Text>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.boton} onPress={() => navigation.navigate("Clipboardd")}>
+                    <Text style={styles.texto}>Clipboard</Text>
+                </TouchableOpacity>
             </View>
         </SafeAreaView>
     );
